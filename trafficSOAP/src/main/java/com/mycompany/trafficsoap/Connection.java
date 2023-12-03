@@ -17,7 +17,7 @@ public class Connection {
 static String user = "root";
     static String pass = "";
     static String url = "jdbc:mysql://localhost:3306/traffic";
-    static String driver = "com.mysql.jdbc.Driver";
+    static String driver = "com.mysql.cj.jdbc.Driver";
  
     public static java.sql.Connection getCon() {
         java.sql.Connection con = null;
